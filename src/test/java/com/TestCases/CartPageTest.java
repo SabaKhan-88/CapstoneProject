@@ -12,17 +12,18 @@ public class CartPageTest extends BaseClass
 		ip.addProductToCart("Phones","Samsung galaxy s7");
 		cp=ip.launchCartPage();
 	}
-	
-	
+
+
   @Test(priority=1)
   public void getProductDetails()
   {
 	  cp.getProductDetails();
   }
-  
+
   @Test(priority=2)
   public void validateOrder()
   {
 	  cp.placeOrder("Priyanka","India","Pune","card123","Dec","2025");
+
   }
 }

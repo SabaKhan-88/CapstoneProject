@@ -14,15 +14,15 @@
       </class> <!-- com.TestCases.HomePageTest -->
     </classes>
   </test> <!-- HomeTest(failed) -->
-  <test thread-count="5" name="IndexTest(failed)">
+  <test thread-count="5" name="CartPageTest(failed)">
     <classes>
-      <class name="com.TestCases.IndexPageTest">
+      <class name="com.TestCases.CartPageTest">
         <methods>
-          <include name="addProductToCart"/>
-          <include name="pageSetup"/>
+          <include name="getProductDetails"/>
           <include name="setUp"/>
+          <include name="pageSetup"/>
         </methods>
-      </class> <!-- com.TestCases.IndexPageTest -->
+      </class> <!-- com.TestCases.CartPageTest -->
     </classes>
-  </test> <!-- IndexTest(failed) -->
+  </test> <!-- CartPageTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

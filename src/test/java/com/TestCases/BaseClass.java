@@ -9,17 +9,17 @@ import org.testng.annotations.BeforeTest;
 
 import com.Pages.*;
 
-public class BaseClass 
+public class BaseClass
 {
-	
+
 	public WebDriver driver;
 	public HomePage hp;
 	public IndexPage ip;
 	public String un="priyankaTest"+System.currentTimeMillis();
 	public CartPage cp;
 
-	
-	
+
+
 	@BeforeTest
 	public void setUp()
 	{
@@ -31,5 +31,5 @@ public class BaseClass
 		cp=new CartPage(driver);
 	}
 
-	
+
 }
